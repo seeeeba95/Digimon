@@ -19,54 +19,50 @@
     <title>digimon</title>
 </head>
 <body>
-
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href=""> <img src="./assets/img/DigiviceMimi.webp" alt="digivice" width="100" height="50"> </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://digimon-api.vercel.app/" target="_blank">API Digimon</a>
-                        </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" onclick="mostrarImagenes()">Imágenes</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Digivice
-                            </a>
-                            <ul class="dropdown-menu">
-                            
-                                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('In Training')">in Training</a></li>
-                                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('Rookie')">Rookie</a></li>
-                                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('Champion')">Champion</a></li>
-                                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('Ultimate')">Ultimate</a></li>
-                                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('Fresh')">Fresh</a></li>
-                                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('Mega')">Mega</a></li>  	
-                                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('Armor')">Armor</a></li> 
-                                        </div>
-                                    </div>
-                                    </div>
-                                
-                            </ul>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input id="dato" class="form-control me-2" type="search" placeholder="Nombre Digimon" aria-label="Search">
-                        <button class="btn btn-outline-success" type="button" onclick="capturarDato()">Buscar</button>
-                        </li>
-                    </form>
-                </div>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href=""> <img src="./assets/img/DigiviceMimi.webp" alt="digivice" width="100" height="50"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://digimon-api.vercel.app/" target="_blank">API Digimon</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="mostrarImagenes()">Imágenes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Digivice
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('In Training')">in Training</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('Rookie')">Rookie</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('Champion')">Champion</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('Ultimate')">Ultimate</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('Fresh')">Fresh</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('Mega')">Mega</a></li>  	
+                            <li><a class="dropdown-item" href="#" onclick="mostrarLevels('Armor')">Armor</a></li> 
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input id="dato" class="form-control me-2" type="search" placeholder="Nombre Digimon" aria-label="Search">
+                    <button class="btn btn-outline-success" type="button" onclick="capturarDato()">Buscar</button>
+                </form>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
+
     
 
     <div id="carta"></div>

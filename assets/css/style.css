@@ -27,3 +27,10 @@ body {
     padding: 1%;
     margin: 1%;
 }
+
+.dropdown-item {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 5%;
+    margin: 0%;
+}
